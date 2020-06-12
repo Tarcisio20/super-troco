@@ -1,6 +1,4 @@
 
-
-//if ( troco > 0.10 || troco < 10){
     function   FuncTroco (vlCompra, ntCliente) { 
         return parseFloat( ((vlCompra - ntCliente) * - 1).toFixed(2) ) 
     }
@@ -26,8 +24,6 @@
             val[1] = t - 5
         }
         return val
-        /*t =  t.toString()
-        return  t.split(".")*/
     }
     
     module.exports = { FuncTroco, superTroco, gerarSuperTroco }
