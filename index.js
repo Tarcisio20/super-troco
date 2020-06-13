@@ -5,7 +5,6 @@ const notaCliente = 8.78
 
 
 const troco = funcs.FuncTroco(valorCompra, notaCliente)
-console.log("Valor do troco "+troco)
 
 if(funcs.superTroco(troco)){
     const tr = funcs.gerarSuperTroco(troco)
